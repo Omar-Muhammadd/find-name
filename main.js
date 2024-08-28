@@ -20,8 +20,8 @@ document.addEventListener('mousemove', function(e){
 var nameRun = document.getElementById("h1Name")
 
 function run(){
-    var X = Math.random() * 200 
-    var Y = Math.random() * 200
+    var X = Math.random() * 500 
+    var Y = Math.random() * 500
 
     nameRun.style.transform = `translate(${X}px,${Y}px)`
  }
