@@ -1,0 +1,39 @@
+html{
+    cursor: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{      
+    overflow: hidden;
+    background-color: black;
+}
+
+img {
+    width: 100px;
+}
+
+#fire{
+    background-color: rgba(218, 165, 32, 0.123);
+    border-radius: 50%;
+    box-shadow: 0px 1px 150px 50px rgba(218, 165, 32, 0.247);
+    z-index: -1;
+}
+
+
+h1{
+    /* color: aliceblue; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0,0);
+    transition: transform 0.3s ease;
+    z-index: 111; 
+}
+
+h1:hover{
+    color: rgb(185, 119, 33);
+}
